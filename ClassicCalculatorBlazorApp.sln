@@ -1,15 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3F2716DE-8872-4988-91C5-78F06C495EEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicCalculatorBlazorApp", "src\ClassicCalculatorBlazorApp.csproj", "{4F43B25B-771D-97EA-0CC6-29E9D2171865}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicCalculatorBlazorApp.Tests", "tests\ClassicCalculatorBlazorApp.Tests.csproj", "{D2E6BADE-D528-DD46-0993-B49B82058D9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicCalculatorBlazorApp", "src\ClassicCalculatorBlazorApp\ClassicCalculatorBlazorApp.csproj", "{2E56A3CB-E3F5-92B0-33C2-783AD2001110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicCalculatorBlazorApp.Tests", "tests\ClassicCalculatorBlazorApp.Tests\ClassicCalculatorBlazorApp.Tests.csproj", "{63BF28B3-4A13-E887-DA33-D72C55126DF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,21 +22,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4F43B25B-771D-97EA-0CC6-29E9D2171865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F43B25B-771D-97EA-0CC6-29E9D2171865}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F43B25B-771D-97EA-0CC6-29E9D2171865}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F43B25B-771D-97EA-0CC6-29E9D2171865}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D2E6BADE-D528-DD46-0993-B49B82058D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2E6BADE-D528-DD46-0993-B49B82058D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2E6BADE-D528-DD46-0993-B49B82058D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2E6BADE-D528-DD46-0993-B49B82058D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E56A3CB-E3F5-92B0-33C2-783AD2001110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E56A3CB-E3F5-92B0-33C2-783AD2001110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E56A3CB-E3F5-92B0-33C2-783AD2001110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E56A3CB-E3F5-92B0-33C2-783AD2001110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63BF28B3-4A13-E887-DA33-D72C55126DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63BF28B3-4A13-E887-DA33-D72C55126DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63BF28B3-4A13-E887-DA33-D72C55126DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63BF28B3-4A13-E887-DA33-D72C55126DF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{4F43B25B-771D-97EA-0CC6-29E9D2171865} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{D2E6BADE-D528-DD46-0993-B49B82058D9D} = {3F2716DE-8872-4988-91C5-78F06C495EEC}
+		{2E56A3CB-E3F5-92B0-33C2-783AD2001110} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{63BF28B3-4A13-E887-DA33-D72C55126DF5} = {3F2716DE-8872-4988-91C5-78F06C495EEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F9EEFAA2-5C4C-4C99-9ABD-FC49F8677BE4}
