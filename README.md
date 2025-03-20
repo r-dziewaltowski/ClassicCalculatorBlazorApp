@@ -38,6 +38,8 @@ The application is deployed and avaialble at the following address: https://clas
 
 If you prefer to run it locally there's two options:
 - Run in Docker container:
+
+First you have to start docker (e.g. Docker Desktop). Then run the following command:
 ```bash
 docker-compose up --build
 ```
