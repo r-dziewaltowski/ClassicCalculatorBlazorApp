@@ -10,7 +10,7 @@ A simple calculator web application giving a feel of using an old school physica
 ## Description
 It's a Blazor Single Page Application (SPA) which is also a Progressive Web Application (PWA) which means that it can be installed on any device (e.g. Windows desktop, Android mobile) like a native app.
 
-This project is just a frontend and for internal calculator logic it uses my ClassicCalculator Nuget package. Thanks to that it is focused solely on the presentation layer, not on the business logic.
+This project is just a frontend and for internal calculator logic it uses my ClassicCalculator Nuget package that can be found here: https://www.nuget.org/packages/ClassicCalculator. Thanks to that it is focused solely on the presentation layer, not on the business logic.
 
 ## Features
 The application provides the functionality of a simple calculator with a display showing just one number and the following buttons:
