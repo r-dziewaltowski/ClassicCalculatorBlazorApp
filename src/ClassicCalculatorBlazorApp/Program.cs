@@ -7,7 +7,7 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
-builder.Services.AddScoped<ICalculator, Calculator>(provider => new Calculator(displayLength: 10));
+builder.Services.AddScoped<ICalculator, Calculator>(provider => new Calculator(displayLength: 14));
 
 // Configure logging
 builder.Logging.SetMinimumLevel(LogLevel.Information);
